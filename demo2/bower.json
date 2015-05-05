@@ -1,0 +1,21 @@
+{
+  "name": "Developers",
+  "version": "0.0.1",
+  "authors": [
+    "Jakub Jedryszek <jakub.jedryszek@gmail.com>"
+  ],
+  "main": "app/index.html",
+  "license": "MIT",
+  "homepage": "http://jj09.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4"
+  }
+}

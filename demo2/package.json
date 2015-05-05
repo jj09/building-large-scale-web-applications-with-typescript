@@ -1,0 +1,18 @@
+{
+  "name": "Developers",
+  "version": "0.0.1",
+  "description": "Demo TypeScript app",
+  "main": "index.html",
+  "scripts": {
+    "test": "tslint app/src/app.ts"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.8.11",
+    "gulp-tslint": "^1.4.4",
+    "gulp-typescript": "^2.5.0",
+    "tsd": "^0.6.0-beta.5"
+  },
+  "author": "jj09",
+  "license": "MIT"
+}

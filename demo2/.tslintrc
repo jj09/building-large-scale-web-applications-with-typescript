@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "curly": true,
+    "no-console": [true, "debug", "info"],
+    "no-trailing-whitespace": true,
+    "quotemark": [true, "double"],
+    "semicolon": true
+  }
+}

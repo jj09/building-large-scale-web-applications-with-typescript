@@ -1,0 +1,40 @@
+<header>
+  <pre>
+ _______   ___________    ____  _______  __        ______   .______    _______ .______          _______.
+|       \ |   ____\   \  /   / |   ____||  |      /  __  \  |   _  \  |   ____||   _  \        /       |
+|  .--.  ||  |__   \   \/   /  |  |__   |  |     |  |  |  | |  |_)  | |  |__   |  |_)  |      |   (----`
+|  |  |  ||   __|   \      /   |   __|  |  |     |  |  |  | |   ___/  |   __|  |      /        \   \    
+|  '--'  ||  |____   \    /    |  |____ |  `----.|  `--'  | |  |      |  |____ |  |\  \----.----)   |   
+|_______/ |_______|   \__/     |_______||_______| \______/  | _|      |_______|| _| `._____|_______/    
+  </pre>
+</header>
+
+<section id="developersap">
+
+  <header id="header">
+    <input
+      id="fname"
+      placeholder="First name"
+      autofocus
+      #firstname>
+    <input
+      id="lname"
+      placeholder="Last name"
+      autofocus
+      #lastname>
+    <input
+      id="salary"
+      placeholder="Salary"
+      autofocus
+      #salary>
+    <input type="submit" (click)="add(firstname.value, lastname.value, salary.value)" text="Add" />
+  </header>
+
+  <section id="main">
+    <ul id="developers-list">
+      <li *for="#developer of developers">
+        {{developer.getFullName()}}
+      </li>
+    </ul>
+  </section>
+</section>
