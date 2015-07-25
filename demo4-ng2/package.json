@@ -1,0 +1,17 @@
+{
+  "name": "Developers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node node_modules/bower/bin/bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "typescript": "mhegazy/typescript#v1.5-beta2",
+    "systemjs": "0.17.1"
+  }
+}

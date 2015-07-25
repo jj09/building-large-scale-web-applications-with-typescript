@@ -1,0 +1,25 @@
+<div id="developers">
+    <ul>
+        <li *ng-for="#developer of developers">{{ developer.getFullName() }}</li>
+    </ul>
+</div>
+
+<hr>
+
+<h2>Add developer</h2>
+
+<div class="form-inline" role="form">
+    <div class="form-group">
+        <label for="firstName">First name:</label>
+        <input type="text" class="form-control" #firstname>
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last name:</label>
+        <input type="text" class="form-control" #lastname>
+    </div>
+    <div class="form-group">
+        <label for="salary">Salary:</label>
+        <input type="number" class="form-control" #salary>
+    </div>
+    <button class="btn btn-default" (click)="add(firstname.value, lastname.value, salary.value)">Add</button>
+</div>

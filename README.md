@@ -25,9 +25,9 @@ Download dependencies and build:
 
 # demo 4
 
-Build (require TypeScript 1.5):
+Download dependencies and build:
 
-    tsc
+    npm install
 
 Run:
 
