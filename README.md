@@ -1,6 +1,14 @@
 # building-large-scale-web-applications-with-typescript
 Code samples from presentation http://jj09.net/building-large-scale-web-applications-with-typescript
 
+# demo todos
+
+Download dependencies and build:
+
+    npm install
+    typings install
+    gulp
+
 # demo 1
 
 TypeScript 101
